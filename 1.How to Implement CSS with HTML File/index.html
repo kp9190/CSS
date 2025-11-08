@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on all devices -->
+    <title>CSS Types Example</title> <!-- Title of the webpage -->
+
+    <!-- External CSS: Links an external CSS file (style.css) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS: Written inside the <style> tag within the <head> section -->
+    <style>
+        h4 {
+            color: blue;               /* Sets text color to blue */
+            background-color: brown;   /* Sets background color to brown */
+        }
+    </style>
+</head>
+
+<body bgcolor="black" text="white">
+
+    <!-- Inline CSS Example -->
+    <h1>Inline CSS</h1>
+
+    <!-- Inline CSS: Written directly in the HTML element using the 'style' attribute -->
+    <h4 style="color: aqua; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        This is Inline CSS
+    </h4>
+
+    <hr>
+
+    <!-- Internal CSS Example -->
+    <h2>Internal CSS</h2>
+
+    <!-- This <h4> uses the CSS from the <style> tag above -->
+    <h4>This is Internal CSS</h4>
+
+    <hr>
+
+    <!-- External CSS Example -->
+    <h3>External CSS</h3>
+
+    <!-- External CSS is written in a separate file (style.css) and linked using <link> -->
+    <h4>This is External CSS</h4>
+
+    <hr>
+
+    <!-- CSS Priority Explanation -->
+    <p>
+        <strong>Note:</strong> CSS Priority Order (from highest to lowest):
+        <br>
+        <b>Inline CSS</b> &gt; <b>Internal CSS (if declared later)</b> &gt; <b>External CSS</b>
+    </p>
+
+</body>
+</html>
