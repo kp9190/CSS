@@ -1,0 +1,14 @@
+Types of Selectors 
+ - Element Selector : 
+    - Group of the tag same desing for Element
+ 
+ - class Selector
+    - Group of the same class name  to same desing for different Element
+
+ - Id Selector
+    - if you want to desing any singal Element
+
+Note : 
+    - We can use same class value with same or different Elements.
+    - We can't use same id value with same or different Elements.
+    - that's means Id always Unique.
